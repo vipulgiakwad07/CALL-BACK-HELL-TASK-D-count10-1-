@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <html>
+
+        <body> Demonstrating callback in javascript:</br>
+            <script type="text/javascript">
+                function count1(callback) {
+                    return setTimeout(() => {
+                        document.write('  10</br>')
+                        callback()
+                    }, 1000);
+                }
+    
+                function count2(callback) {
+                    return setTimeout(() => {
+                        document.write('  9</br>')
+                        callback()
+                    }, 1000);
+                }
+    
+                function count3(callback) {
+                    return setTimeout(() => {
+                        document.write('  8</br>')
+                        callback()
+                    }, 1000);
+                }
+    
+                function count4(callback) {
+                    return setTimeout(() => {
+                        document.write('  7</br>')
+                        callback()
+                    }, 1000);
+                }
+
+                function count5(callback) {
+                    return setTimeout(() => {
+                        document.write('  6</br>')
+                        callback()
+                    }, 1000);
+                }
+
+                function count6(callback) {
+                    return setTimeout(() => {
+                        document.write('  5</br>')
+                        callback()
+                    }, 1000);
+                }
+
+
+                function count7(callback) {
+                    return setTimeout(() => {
+                        document.write('  4</br>')
+                        callback()
+                    }, 1000);
+                }
+
+                function count8(callback) {
+                    return setTimeout(() => {
+                        document.write('  3</br>')
+                        callback()
+                    }, 1000);
+                }
+    
+
+                function count9(callback) {
+                    return setTimeout(() => {
+                        document.write('  2</br>')
+                        callback()
+                    }, 1000);
+                }
+
+
+                function count10(callback) {
+                    return setTimeout(() => {
+                        document.write('1</br></br>Happy Independence Day.</br>')
+                        callback()
+                    }, 1000);
+                }
+    
+                function run (){
+                    count1(()=>{
+                        count2(()=>{
+                            count3(()=>{
+                                count4(()=>{
+                                    count5(()=>{
+                                        count6(()=>{
+                                            count7(()=>{
+                                                count8(()=>{
+                                                    count9(()=>{
+                                                        count10(()=>{ })
+                            })
+                            
+                        })
+                    })
+                })
+            })
+        })
+    })
+})
+})
+                }
+    
+                run();
+    
+            </script>
+        </body>
+    </html>
+
+
+    <script src="scriptc.js"></script>
+</body>
+</html>
